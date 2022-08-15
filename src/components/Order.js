@@ -5,7 +5,7 @@ function Order(props) {
   const [isClicked, setIsClicked] = useState(false);
 
   function handleClick() {
-    isClicked = !isClicked;
+    setIsClicked(!isClicked);
   }
 
   return (
